@@ -4,6 +4,7 @@
 @import url("./styles/content.css");
 @import url("./styles/buttons.css");
 @import url("./styles/footer.css");
+@import url("./styles/slider.css");
 
 * {
     margin: 0;
