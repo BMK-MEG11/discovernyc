@@ -1,0 +1,86 @@
+.container-teaser {
+    padding: 60px 20px;
+}
+
+.pre-headline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    padding-bottom: 17px;
+}
+
+.container-article-teaser {
+    padding: 60px 20px 56px;
+    background-color: #094368;
+    color: #fff;
+}
+
+.container-article-teaser img {
+    max-width: -webkit-fill-available;
+    height: 379px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 71px;
+}
+
+.container-article-teaser .text {
+    padding-bottom: 39px;
+}
+
+h2 {
+    padding-bottom: 22px;
+}
+
+.container-mobility {
+    padding: 60px 20px;
+}
+
+.icon-box {
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 5px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    float: left;
+    display: flex;
+    height: 61px;
+    width: 61PX;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-cab {
+    width: 44px;
+    height: auto;
+}
+
+.icon-bike {
+    width: 50px;
+    height: auto;
+}
+
+.icon-subway {
+    width: 44px;
+    height: auto;
+}
+
+.container-subway-info p, .container-bike-info p, .container-cab-info p {
+    clear: left;
+    margin-bottom: 35px;
+}
+
+.icon-headline-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 19px;
+}
+
+.subline {
+  margin-left: 20px;  
+  font-size: 20px;
+}
+
+.get-around-img {
+    max-width: -webkit-fill-available;
+}
