@@ -1,8 +1,10 @@
 // Slick Slider
-document.ready(function(){
-    document.getElementByClassName(".teaser-slider").slick({
-      infinite: true,
+$(document).ready(function(){
+    $('.teaser-slider').slick({
+      infinte: true,
       slidesToShow: 1,
-      slideToScroll: 1
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 4000
     });
   });
