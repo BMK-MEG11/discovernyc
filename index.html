@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="./main.css">
   <link rel="stylesheet" type="text/css" href="./node_modules/slick-carousel/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="./node_modules/slick-carousel/slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="./main.css">
   <title>DiscoverNYC</title>
 </head>
 
@@ -42,21 +42,27 @@
       <div class="teaser-slider">
         <div class="teaser">
           <img class="img-brooklyn" src="./media/slide-img-brooklyn.jpg">
-          <h3 class="teaser-headline">Brooklyn</h3>
-          <p class="teaser-text">A must visit for your stay</p>
-          <p><a class="teaser-link">Explore</a></p>
+          <div class="teaser-text-wrapper">
+            <h3 class="teaser-headline">Brooklyn</h3>
+            <p class="teaser-text">A must visit for your stay</p>
+            <p><a class="teaser-link">Explore</a></p>
+          </div>
         </div>
         <div class="teaser">
           <img class="img-edge" src="./media/slider-img-edge.jpg">
-          <h3 class="teaser-headline">The Edge</h3>
-          <p class="teaser-text">A must visit for your stay</p>
-          <p><a class="teaser-link">Explore</a></p>
+          <div class="teaser-text-wrapper">
+            <h3 class="teaser-headline">The Edge</h3>
+            <p class="teaser-text">A must visit for your stay</p>
+            <p><a class="teaser-link">Explore</a></p>
+          </div>
         </div>
         <div class="teaser">
           <img class="img-central-park" src="./media/slider-img-central-park.jpg">
-          <h3 class="teaser-headline">Central Park</h3>
-          <p class="teaser-text">A must visit for your stay</p>
-          <p><a class="teaser-link">Explore</a></p>
+          <div class="teaser-text-wrapper">
+            <h3 class="teaser-headline">Central Park</h3>
+            <p class="teaser-text">A must visit for your stay</p>
+            <p><a class="teaser-link">Explore</a></p>
+          </div>
         </div>
       </div>
     </div>
@@ -146,6 +152,8 @@
       </div>
     </div>
   </footer>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="./node_modules/slick-carousel/slick/slick.min.js"></script>
   <script src="./index.js"></script>
 </body>
