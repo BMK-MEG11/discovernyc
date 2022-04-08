@@ -1,0 +1,7 @@
+.img-brooklyn, .img-edge, .img-central-park {
+    max-width: -webkit-fill-available;
+}
+
+.slick-slide {
+    margin: 0 20px;
+}
