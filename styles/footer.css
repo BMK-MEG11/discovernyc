@@ -9,6 +9,7 @@
     text-align: center;
     color: #fff;
     flex-direction: column;
+    position: relative;
 }
 
 .container-contact-us:after {
@@ -28,6 +29,7 @@
     font-weight: bold;
     margin-bottom: 30px;
     line-height: 35px;
+    z-index: 2;
 }
 
 .footer-bar {
@@ -51,5 +53,5 @@
 }
 
 .social-media-icons {
-    margin-right: 7px;
+    margin-right: 10px;
 }

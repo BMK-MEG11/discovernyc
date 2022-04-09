@@ -54,7 +54,40 @@ header {
 }
 
 .dropdown-menu li {
+  margin: 5px 0;
+}
+
+.dropdown-menu a {
+  position: relative;
+  z-index: 4;
+  width: 100%;
   padding: 2px 20px;
+  display: inline-block;
+}
+
+.dropdown-menu a::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.dropdown-menu a:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.dropdown-menu a:hover {
+  color: #094368;
+}
+
+.dropdown-menu a::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: #ffffff;
+  z-index: -1;
+  transition: transform .3s ease;
 }
 
 #menuToggle input:checked ~ ul.dropdown-menu {

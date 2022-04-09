@@ -6,4 +6,16 @@
     border: 2px solid #fff;
     padding: 9.25px 53px;
     color: #fff;
+    z-index: 2;
+
+    background-image:linear-gradient(to right,#FFFFFF00 0,#FFFFFF00 50%,#FFFFFF 75%,#FFFFFF 100%)!important;
+	transition:all 0.7s ease!important;
+	background-size: 400% auto!important;
+	background-repeat:no-repeat!important;
+}
+
+.button:hover {
+    color: #094368;
+    background-position: right!important;
+    transition:all 0.7s ease!important;
 }
