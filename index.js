@@ -52,3 +52,18 @@ function loop () {
 }
 
 loop()
+
+// Header add background
+const header = document.getElementById('header')
+
+window.onscroll = function headerBackground () {
+    let pageOffset = window.pageYOffset
+
+    if(pageOffset >= 50) {
+        header.classList.add('scrolled')
+    } 
+    
+    else {
+        header.classList.remove('scrolled')
+    }
+}
