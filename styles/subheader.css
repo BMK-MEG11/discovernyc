@@ -34,6 +34,19 @@
     position: relative;
     margin: auto 0;
     padding: 0 20px;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .site-title span {

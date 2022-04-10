@@ -8,6 +8,18 @@ header {
     padding: 20px;
     margin: 0 auto;
     transition: background-color .5s ease-in-out;
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadeInDown {
+  0% {
+    transform: translateY(-71.5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 header.scrolled {
@@ -70,6 +82,7 @@ header.scrolled .dropdown-menu {
   width: 100%;
   padding: 2px 20px;
   display: inline-block;
+  color: #fff;
 }
 /*
 .dropdown-menu a::before {
