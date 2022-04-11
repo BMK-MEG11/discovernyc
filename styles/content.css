@@ -1,5 +1,5 @@
 .container-teaser {
-    padding: 60px 0px;
+    padding: 60px 20px;
 }
 
 .pre-headline {
@@ -10,15 +10,10 @@
     padding-bottom: 17px;
 }
 
-.container-teaser .pre-headline {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 .container-teaser h2 {
     margin-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: 565px;
+    line-height: 37px;
 }
 
 .teaser {
@@ -153,4 +148,67 @@ h2 {
 
 .get-around-img {
     max-width: -webkit-fill-available;
+}
+
+@media only screen and (min-width: 769px) {
+    h2 {
+        font-size: 26px;
+    }
+    h3.subline {
+        font-size: 26px;
+    }
+    .container-teaser h2 {
+        max-width: 520px;
+    }
+    .container-mobility {
+        display: flex;
+        justify-content: space-between;
+        padding: 90px 20px;
+    }
+    .container-article-teaser {
+        display: flex;
+        justify-content: space-between;
+        padding: 90px 20px 101px;
+    }
+    .container-teaser {
+        padding: 90px 20px;
+    }
+    .container-article-teaser img {
+        margin-top: 0;
+    }
+    .content-column {
+        width: 45%;
+    }
+    .get-around-img {
+        max-width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .container-article-teaser {
+        padding: 120px 40px 131px;
+    }
+    .container-mobility {
+        padding: 120px 40px;
+    }
+    .container-teaser h2 {
+        font-size: 30px;
+    }
+    .get-around-img {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .container-article-teaser img {
+        max-width: 638px;
+        width: 100%;
+    }
+    .container-teaser h2 {
+        max-width: 590px;
+    }
+    .container-teaser {
+        padding: 120px 40px;
+    }
 }

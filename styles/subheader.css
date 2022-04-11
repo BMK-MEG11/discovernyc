@@ -53,3 +53,27 @@
     border-right: 3px solid #fff;
     padding-right: 2px;
 }
+
+@media only screen and (min-width: 400px) {
+    .site-title {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .site-title {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .site-title {
+        font-size: 90px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .site-title {
+        font-size: 120px;
+    }
+}

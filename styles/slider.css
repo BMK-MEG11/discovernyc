@@ -1,7 +1,39 @@
-.img-brooklyn, .img-edge, .img-central-park {
+.img-brooklyn, .img-edge, .img-central-park, .img-zoo {
     max-width: -webkit-fill-available;
 }
 
 .slick-slide {
-    margin: 0 20px;
+    margin: 0 30px;
+}
+
+.slick-prev {
+    left: 5px;
+    width: 16px;
+    height: 25.5px;
+    z-index: 1;
+}
+
+.slick-prev::before {
+    display: block;
+    content: '';
+    background-image: url('../media/slider-arrow-left.svg');
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 25.5px;
+}
+
+.slick-next{
+    right: 5px;
+    width: 16px;
+    height: 25.5px;
+    z-index: 1;
+}
+
+.slick-next::before {
+    display: block;
+    content: '';
+    background-image: url('../media/slider-arrow-right.svg');
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 25.5px;
 }

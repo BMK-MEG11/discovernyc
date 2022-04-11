@@ -3,6 +3,7 @@ header {
     max-width: 1440px;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     z-index: 999;
     padding: 20px;
@@ -34,12 +35,7 @@ header.scrolled {
     color: #fff;
 }
 
-.menu-tablet-desktop {
-    display: none;
-}
-
-#menuToggle input
-{
+#menuToggle input {
   display: block;
   width: 30px;
   height: 32px;
@@ -156,4 +152,37 @@ header.scrolled .dropdown-menu {
 
 ul li {
   letter-spacing: 0.02em;
+}
+
+@media only screen and (min-width: 769px) {
+  #menuToggle input {
+    display: none;
+  }
+  .menu-btn__burger {
+    display: none;
+  }
+  .dropdown-menu {
+    display: block;
+    position: relative;
+    padding: 0;
+    background-color: unset;
+  }
+  .dropdown-menu li {
+    display: inline-block;
+  }
+  header.scrolled .dropdown-menu {
+    background-color: unset;
+  }
+  .logo p {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  header {
+    padding: 20px 40px;
+  }
+  .dropdown-menu {
+    font-size: 20px;
+  }
 }

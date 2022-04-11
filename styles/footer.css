@@ -28,7 +28,7 @@
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 30px;
-    line-height: 35px;
+    line-height: 44px;
     z-index: 2;
 }
 
@@ -54,4 +54,23 @@
 
 .social-media-icons {
     margin-right: 10px;
+}
+
+@media only screen and (min-width: 769px) {
+    .contact-us-slogan {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .contact-us-slogan {
+        font-size: 36px;
+        max-width: 950px;
+    }
+    .container-contact-us {
+        padding: 0 40px;
+    }
+    .footer-bar {
+        padding: 16px 40px;
+    }
 }
