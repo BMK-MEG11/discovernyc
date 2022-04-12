@@ -13,24 +13,26 @@
 
 <body>
   <header id="header">
-    <div class="logo">
-      <p class="logo-header">DiscoverNYC</p>
-    </div>
-    <nav>
-      <div id="menuToggle">
-        <input type="checkbox"/>
-        <div class="menu-btn__burger"></div>
-        <ul class="dropdown-menu">
-          <li><a href="/#">Home</a></li>
-          <li><a href="/#">Explore</a></li>
-          <li><a href="/#">Discover</a></li>
-          <li><a href="/#">About</a></li>
-          <li><a href="/#">Contact</a></li>
-        </ul>
+    <div class="max-width-header">
+      <div class="logo">
+        <p class="logo-header">DiscoverNYC</p>
       </div>
-    </nav>
-  </header>
-  <main>
+      <nav>
+        <div id="menuToggle">
+          <input type="checkbox"/>
+          <div class="menu-btn__burger"></div>
+          <ul class="dropdown-menu">
+            <li><a href="/#">Home</a></li>
+            <li><a href="/#">Explore</a></li>
+            <li><a href="/#">Discover</a></li>
+            <li><a href="/#">About</a></li>
+            <li><a class="no-padding-right" href="/#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    </header>
+    <main>
     <div class="sub-header">
       <video src="./media/hero-video.mp4" muted loop autoplay>
       </video>
@@ -75,25 +77,27 @@
       </div>
     </div>
     <div class="container-article-teaser">
-      <div class="content-column">
-        <p class="pre-headline">Where to eat</p>
-        <h2>The best food in Manhatten</h2>
-        <p class="text">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-          sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero
-          eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-          gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-          erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
-          ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-          est Lorem ipsum dolor sit amet.
-        </p>
-        <a class="button" href="/#">Read more</a>
-      </div>
-      <div class="content-column">
-        <img src="./media/nyc-food-teaser.jpg">
+      <div class="max-width-article">
+        <div class="content-column">
+          <p class="pre-headline">Where to eat</p>
+          <h2>The best food in Manhatten</h2>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+            sed diam nonumy eirmod tempor invidunt ut labore et
+            dolore magna aliquyam erat, sed diam voluptua. At vero
+            eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+            gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+            ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+            est Lorem ipsum dolor sit amet.
+          </p>
+          <a class="button" href="/#">Read more</a>
+        </div>
+        <div class="content-column">
+          <img src="./media/nyc-food-teaser.jpg">
+        </div>
       </div>
     </div>
     <div class="container-mobility">
@@ -151,12 +155,14 @@
       <p class="contact-us-slogan">Did we leave any questions unanswered or are there any topics we didn’t discuss?</p>
       <a class="button" href="/#">Let us know</a>
     </div>
-    <div class="footer-bar">
-      <p class="logo-footer">DiscoverNYC</p>
-      <div class="container-social-media-icons">
-        <img class="social-media-icons" src="./media/facebook-icon.svg">
-        <img class="social-media-icons" src="./media/twitter-icon.svg">
-        <img src="./media/instagram-icon.svg">
+    <div class="footer-background-color">
+      <div class="footer-bar">
+        <p class="logo-footer">DiscoverNYC</p>
+        <div class="container-social-media-icons">
+          <img class="social-media-icons" src="./media/facebook-icon.svg">
+          <img class="social-media-icons" src="./media/twitter-icon.svg">
+          <img src="./media/instagram-icon.svg">
+        </div>
       </div>
     </div>
   </footer>

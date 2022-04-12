@@ -1,5 +1,7 @@
 .container-teaser {
     padding: 60px 20px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .pre-headline {
@@ -76,9 +78,14 @@
 }
 
 .container-article-teaser {
-    padding: 60px 20px 56px;
     background-color: #094368;
     color: #fff;
+}
+
+.max-width-article {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 60px 20px 56px;
 }
 
 .container-article-teaser img {
@@ -90,15 +97,21 @@
 }
 
 .container-article-teaser .text {
-    padding-bottom: 39px;
+    margin-bottom: 39px;
 }
 
 h2 {
-    padding-bottom: 22px;
+    margin-bottom: 22px;
 }
 
 .container-mobility {
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 60px 20px;
+}
+
+.container-mobility h2 {
+    margin-bottom: 40px;
 }
 
 .icon-box {
@@ -165,7 +178,7 @@ h2 {
         justify-content: space-between;
         padding: 90px 20px;
     }
-    .container-article-teaser {
+    .max-width-article {
         display: flex;
         justify-content: space-between;
         padding: 90px 20px 101px;
@@ -187,7 +200,7 @@ h2 {
 }
 
 @media only screen and (min-width: 1025px) {
-    .container-article-teaser {
+    .max-width-article {
         padding: 120px 40px 131px;
     }
     .container-mobility {
@@ -195,6 +208,17 @@ h2 {
     }
     .container-teaser h2 {
         font-size: 30px;
+    }
+    .icon-headline-wrapper {
+        display: unset;
+    }
+    .subline {
+        margin-left: 90px;
+        margin-bottom: 7px;
+    }
+    .container-subway-info p, .container-bike-info p, .container-cab-info p {
+        clear: none;
+        margin-left: 90px;
     }
     .get-around-img {
         max-width: 100%;
@@ -210,5 +234,11 @@ h2 {
     }
     .container-teaser {
         padding: 120px 40px;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .container-mobility .content-column {
+        width: 39%;
     }
 }

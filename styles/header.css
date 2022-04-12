@@ -1,9 +1,5 @@
 header {
-    display: flex;
-    max-width: 1440px;
     width: 100%;
-    justify-content: space-between;
-    align-items: center;
     position: fixed;
     z-index: 999;
     padding: 20px;
@@ -12,6 +8,14 @@ header {
     animation-name: fadeInDown;
     animation-duration: 2s;
     animation-iteration-count: 1;
+}
+
+.max-width-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 @keyframes fadeInDown {
@@ -33,6 +37,10 @@ header.scrolled {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #fff;
+}
+
+.menu-tablet-desktop {
+    display: none;
 }
 
 #menuToggle input {
@@ -175,6 +183,9 @@ ul li {
   }
   .logo p {
     font-size: 30px;
+  }
+  .no-padding-right {
+    padding-right: 0!important;
   }
 }
 
