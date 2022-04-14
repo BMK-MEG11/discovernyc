@@ -19,3 +19,38 @@
     background-position: right!important;
     transition:all 0.7s ease!important;
 }
+
+.button-wrapper {
+    margin-top: 33px;
+}
+
+.button-wrapper input {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: #1f1f1f;
+    padding: 8px 0 8px 24px;
+    border: 2px solid #094368;
+    border-radius: 3px;
+    margin-bottom: 35px;
+}
+
+.button-wrapper a {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    background-color: #0068A0;
+    border: 2px solid #094368;
+    color: #fff;
+    border-radius: 3px;
+    padding: 8px 12px;
+}
+
+@media only screen and (min-width: 769px) {
+    .button-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: 330px;
+    }
+}
