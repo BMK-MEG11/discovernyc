@@ -1,289 +1,306 @@
 .container-teaser {
-  padding: 60px 20px;
-  max-width: 1440px;
-  margin: 0 auto;
+    padding: 60px 20px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .pre-headline {
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
-  padding-bottom: 17px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    padding-bottom: 17px;
 }
 
 .container-teaser h2 {
-  margin-bottom: 30px;
-  max-width: 565px;
-  line-height: 37px;
+    margin-bottom: 30px;
+    max-width: 565px;
+    line-height: 37px;
 }
 
 .teaser {
-  position: relative;
+    position: relative;
 }
 
 .teaser::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: linear-gradient(
-    180deg,
-    rgba(70, 70, 70, 0.4) 0%,
-    rgba(128, 128, 128, 0.4) 100%
-  );
-  z-index: 0;
-  max-width: 400px;
-  max-height: 400px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(180deg, rgba(70, 70, 70, 0.4) 0%, rgba(128, 128, 128, 0.4) 100%);
+    z-index: 0;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 .teaser-text-wrapper {
-  position: absolute;
-  padding-left: 17px;
-  color: #fff;
-  bottom: 35px;
-  z-index: 1;
+    position: absolute;
+    padding-left: 17px;
+    color: #fff;
+    bottom: 35px;
+    z-index: 1;
 }
 
 .teaser-headline {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 22px;
-  font-weight: bold;
-  letter-spacing: 0.02em;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
 }
 
 .teaser-text {
-  font-size: 18px;
-  letter-spacing: 0.02em;
-  margin-top: -2px;
-  margin-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    margin-top: -2px;
+    margin-bottom: 10px;
 }
 
 .teaser-link {
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .teaser-link::after {
-  display: inline-block;
-  content: "";
-  background-image: url("../media/explore-arrow-icon.svg");
-  background-repeat: no-repeat;
-  margin-left: 10px;
-  width: 7px;
-  height: 11px;
-  transition: margin-left 0.3s ease-in-out;
+    display: inline-block;
+    content: "";
+    background-image: url("../media/explore-arrow-icon.svg");
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    width: 7px;
+    height: 11px;
+    transition: margin-left 0.3s ease-in-out;
 }
 
 .teaser-link:hover::after {
-  margin-left: 14px;
-  transition: margin-left 0.3s ease-in-out;
+    margin-left: 14px;
+    transition: margin-left 0.3s ease-in-out;
 }
 
 .container-article-teaser {
-  background-color: #094368;
-  color: #fff;
+    background-color: #094368;
+    color: #fff;
 }
 
 .max-width-article {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 60px 20px 56px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 60px 20px 56px;
 }
 
 .padding-bottom {
-  padding-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 .container-article-teaser img,
 .teaser-img img {
-  max-width: -webkit-fill-available;
-  height: 379px;
-  object-fit: cover;
-  object-position: center;
-  margin-top: 71px;
+    max-width: -webkit-fill-available;
+    height: 379px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 71px;
 }
 
 .container-article-teaser .text {
-  margin-bottom: 39px;
+    margin-bottom: 39px;
 }
 
 h2 {
-  margin-bottom: 22px;
+    margin-bottom: 22px;
 }
 
 .container-mobility {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 60px 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 60px 20px;
 }
 
 .container-mobility h2 {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .icon-box {
-  border: 1px solid transparent;
-  border-radius: 6px;
-  padding: 5px;
-  box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
-  float: left;
-  display: flex;
-  height: 61px;
-  width: 61px;
-  justify-content: center;
-  align-items: center;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 5px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    float: left;
+    display: flex;
+    height: 61px;
+    width: 61px;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon-cab {
-  width: 44px;
-  height: auto;
+    width: 44px;
+    height: auto;
 }
 
 .icon-bike {
-  width: 50px;
-  height: auto;
+    width: 50px;
+    height: auto;
 }
 
 .icon-subway {
-  width: 44px;
-  height: auto;
+    width: 44px;
+    height: auto;
 }
 
 .container-subway-info p,
 .container-bike-info p,
 .container-cab-info p {
-  clear: left;
-  margin-bottom: 35px;
+    clear: left;
+    margin-bottom: 35px;
 }
 
 .icon-headline-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin-bottom: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 19px;
 }
 
 .subline {
-  margin-left: 20px;
-  font-size: 20px;
+    margin-left: 20px;
+    font-size: 20px;
 }
 
 .get-around-img {
-  max-width: -webkit-fill-available;
+    max-width: -webkit-fill-available;
 }
 
 .dumbo-teaser-img {
-  margin-bottom: 71px;
+    margin-bottom: 71px;
 }
 
 @media only screen and (min-width: 500px) and (max-width: 709px) {
-  .teaser-text-wrapper {
-    margin-left: -180px;
-  }
-  .teaser::after {
-    margin: 0 auto;
-  }
+    .teaser-text-wrapper {
+        margin-left: -180px;
+    }
+
+    .teaser::after {
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (min-width: 401px) {
-  .teaser-text-wrapper {
-    padding-left: 27px;
-  }
+    .teaser-text-wrapper {
+        padding-left: 27px;
+    }
 }
 
 @media only screen and (min-width: 769px) {
-  h2 {
-    font-size: 26px;
-  }
-  h3.subline {
-    font-size: 26px;
-  }
-  .container-teaser h2 {
-    max-width: 520px;
-  }
-  .container-mobility {
-    display: flex;
-    justify-content: space-between;
-    padding: 90px 20px;
-  }
-  .max-width-article {
-    display: flex;
-    justify-content: space-between;
-    padding: 90px 20px 101px;
-  }
-  .padding-bottom {
-    padding-bottom: 90px;
-  }
-  .container-teaser {
-    padding: 90px 20px;
-  }
-  .container-article-teaser img,
-  .teaser-img img {
-    margin-top: 0;
-  }
-  .content-column {
-    width: 45%;
-  }
-  .get-around-img {
-    max-width: 100%;
-    height: 80%;
-    object-fit: cover;
-  }
-  .dumbo-teaser-img {
-    margin-bottom: 0;
-  }
+    h2 {
+        font-size: 26px;
+    }
+
+    h3.subline {
+        font-size: 26px;
+    }
+
+    .container-teaser h2 {
+        max-width: 520px;
+    }
+
+    .container-mobility {
+        display: flex;
+        justify-content: space-between;
+        padding: 90px 20px;
+    }
+
+    .max-width-article {
+        display: flex;
+        justify-content: space-between;
+        padding: 90px 20px 101px;
+    }
+
+    .padding-bottom {
+        padding-bottom: 90px;
+    }
+
+    .container-teaser {
+        padding: 90px 20px;
+    }
+
+    .container-article-teaser img,
+    .teaser-img img {
+        margin-top: 0;
+    }
+
+    .content-column {
+        width: 45%;
+    }
+
+    .get-around-img {
+        max-width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+
+    .dumbo-teaser-img {
+        margin-bottom: 0;
+    }
 }
 
 @media only screen and (min-width: 1025px) {
-  .max-width-article {
-    padding: 120px 40px 131px;
-  }
-  .padding-bottom {
-    padding-bottom: 120px;
-  }
-  .container-mobility {
-    padding: 120px 40px;
-  }
-  .container-teaser h2 {
-    font-size: 30px;
-  }
-  .icon-headline-wrapper {
-    display: unset;
-  }
-  .subline {
-    margin-left: 90px;
-    margin-bottom: 7px;
-  }
-  .container-subway-info p,
-  .container-bike-info p,
-  .container-cab-info p {
-    clear: none;
-    margin-left: 90px;
-  }
-  .get-around-img {
-    max-width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .container-article-teaser img,
-  .teaser-img img {
-    max-width: 638px;
-    width: 100%;
-  }
-  .container-teaser h2 {
-    max-width: 590px;
-  }
-  .container-teaser {
-    padding: 120px 40px;
-  }
+    .max-width-article {
+        padding: 120px 40px 131px;
+    }
+
+    .padding-bottom {
+        padding-bottom: 120px;
+    }
+
+    .container-mobility {
+        padding: 120px 40px;
+    }
+
+    .container-teaser h2 {
+        font-size: 30px;
+    }
+
+    .icon-headline-wrapper {
+        display: unset;
+    }
+
+    .subline {
+        margin-left: 90px;
+        margin-bottom: 7px;
+    }
+
+    .container-subway-info p,
+    .container-bike-info p,
+    .container-cab-info p {
+        clear: none;
+        margin-left: 90px;
+    }
+
+    .get-around-img {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .container-article-teaser img,
+    .teaser-img img {
+        max-width: 638px;
+        width: 100%;
+    }
+
+    .container-teaser h2 {
+        max-width: 590px;
+    }
+
+    .container-teaser {
+        padding: 120px 40px;
+    }
 }
 
 @media only screen and (min-width: 1250px) {
-  .container-mobility .content-column {
-    width: 39%;
-  }
+    .container-mobility .content-column {
+        width: 39%;
+    }
 }
