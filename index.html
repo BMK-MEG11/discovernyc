@@ -1,175 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./node_modules/slick-carousel/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./node_modules/slick-carousel/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./main.css" />
+    <title>DiscoverNYC</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="./node_modules/slick-carousel/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="./node_modules/slick-carousel/slick/slick-theme.css"/>
-  <link rel="stylesheet" type="text/css" href="./main.css">
-  <title>DiscoverNYC</title>
-</head>
-
-<body>
-  <header id="header">
-    <div class="max-width-header">
-      <div class="logo">
-        <p class="logo-header">DiscoverNYC</p>
-      </div>
-      <nav>
-        <div id="menuToggle">
-          <input type="checkbox"/>
-          <div class="menu-btn__burger"></div>
-          <ul class="dropdown-menu">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="/pages/brooklyn.html">Explore</a></li>
-            <li><a href="/pages/brooklyn.html">Discover</a></li>
-            <li><a href="/pages/brooklyn.html">About</a></li>
-            <li><a class="no-padding-right" href="/pages/brooklyn.html">Contact</a></li>
-          </ul>
+  <body>
+    <header id="header">
+      <div class="max-width-header">
+        <div class="logo">
+          <p class="logo-header"><a href="./index.html">DiscoverNYC</a></p>
         </div>
-      </nav>
-    </div>
+        <nav>
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <div class="menu-btn__burger"></div>
+            <ul class="dropdown-menu">
+              <li class="active"><a href="./index.html">Home</a></li>
+              <li><a href="/pages/brooklyn.html">Explore</a></li>
+              <li><a href="/pages/brooklyn.html">Discover</a></li>
+              <li><a href="/pages/brooklyn.html">About</a></li>
+              <li>
+                <a class="no-padding-right" href="/pages/brooklyn.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
     <main>
-    <div class="sub-header">
-      <video src="./media/hero-video.mp4" muted loop autoplay>
-      </video>
-      <h1 class="site-title">Discover<span id="text-replace">NYC</span></h1>
-    </div>
-    <div class="container-teaser">
-      <p class="pre-headline">Places to visit</p>
-      <h2>Not sure where to go first? Here are some suggestions.</h2>
-      <div class="teaser-slider">
-        <div class="teaser">
-          <img class="img-brooklyn" src="./media/slide-img-brooklyn.jpg">
-          <div class="teaser-text-wrapper">
-            <h3 class="teaser-headline">Brooklyn</h3>
-            <p class="teaser-text">A must visit for your stay</p>
-            <p><a class="teaser-link">Explore</a></p>
+      <div class="sub-header">
+        <video src="./media/hero-video.mp4" muted loop autoplay></video>
+        <h1 class="site-title">Discover<span id="text-replace">NYC</span></h1>
+      </div>
+      <div class="container-teaser">
+        <p class="pre-headline">Places to visit</p>
+        <h2>Not sure where to go first? Here are some suggestions.</h2>
+        <div class="teaser-slider">
+          <div class="teaser">
+            <img class="img-brooklyn" src="./media/slide-img-brooklyn.jpg" />
+            <div class="teaser-text-wrapper">
+              <h3 class="teaser-headline">Brooklyn</h3>
+              <p class="teaser-text">A must visit for your stay</p>
+              <p><a class="teaser-link">Explore</a></p>
+            </div>
           </div>
-        </div>
-        <div class="teaser">
-          <img class="img-edge" src="./media/slider-img-edge.jpg">
-          <div class="teaser-text-wrapper">
-            <h3 class="teaser-headline">The Edge</h3>
-            <p class="teaser-text">A must visit for your stay</p>
-            <p><a class="teaser-link">Explore</a></p>
+          <div class="teaser">
+            <img class="img-edge" src="./media/slider-img-edge.jpg" />
+            <div class="teaser-text-wrapper">
+              <h3 class="teaser-headline">The Edge</h3>
+              <p class="teaser-text">A must visit for your stay</p>
+              <p><a class="teaser-link">Explore</a></p>
+            </div>
           </div>
-        </div>
-        <div class="teaser">
-          <img class="img-central-park" src="./media/slider-img-central-park.jpg">
-          <div class="teaser-text-wrapper">
-            <h3 class="teaser-headline">Central Park</h3>
-            <p class="teaser-text">A must visit for your stay</p>
-            <p><a class="teaser-link">Explore</a></p>
+          <div class="teaser">
+            <img
+              class="img-central-park"
+              src="./media/slider-img-central-park.jpg"
+            />
+            <div class="teaser-text-wrapper">
+              <h3 class="teaser-headline">Central Park</h3>
+              <p class="teaser-text">A must visit for your stay</p>
+              <p><a class="teaser-link">Explore</a></p>
+            </div>
           </div>
-        </div>
-        <div class="teaser">
-          <img class="img-zoo" src="./media/bronx-zoo-teaser.jpg">
-          <div class="teaser-text-wrapper">
-            <h3 class="teaser-headline">Bronx Zoo</h3>
-            <p class="teaser-text">A must visit for your stay</p>
-            <p><a class="teaser-link">Explore</a></p>
+          <div class="teaser">
+            <img class="img-zoo" src="./media/bronx-zoo-teaser.jpg" />
+            <div class="teaser-text-wrapper">
+              <h3 class="teaser-headline">Bronx Zoo</h3>
+              <p class="teaser-text">A must visit for your stay</p>
+              <p><a class="teaser-link">Explore</a></p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container-article-teaser">
-      <div class="max-width-article">
+      <div class="container-article-teaser">
+        <div class="max-width-article">
+          <div class="content-column">
+            <p class="pre-headline">Where to eat</p>
+            <h2>Street food in NYC</h2>
+            <p class="text">
+              We cover the exciting street food, dining and unique Food Truck
+              catering scene in New York City. We deliver hot news, reviews,
+              tips, and clips for anyone who is hungry. Get in touch with us and
+              experience the delicious street food of carts and trucks anywhere
+              in New York City. So if you are interested in street food and
+              everything there is to know about in and around the city you
+              should come check out articles.
+            </p>
+            <a class="button" href="/#">Read more</a>
+          </div>
+          <div class="content-column">
+            <img src="./media/nyc-food-teaser.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="container-mobility">
         <div class="content-column">
-          <p class="pre-headline">Where to eat</p>
-          <h2>Street food in NYC</h2>
-          <p class="text">
-            We cover the exciting street food, dining and 
-            unique Food Truck catering scene in New York City. 
-            We deliver hot news, reviews, tips, and clips for 
-            anyone who is hungry. Get in touch with us and 
-            experience the delicious street food of carts 
-            and trucks anywhere in New York City. So if you 
-            are interested in street food and everything there 
-            is to know about in and around the city you 
-            should come check out articles.
-          </p>
-          <a class="button" href="/#">Read more</a>
+          <p class="pre-headline">Get around the city</p>
+          <h2>
+            So many ways to get around the city but which one should you use?
+          </h2>
+          <div class="container-subway-info">
+            <div class="icon-headline-wrapper">
+              <div class="icon-box">
+                <img class="icon-subway" src="./media/subway-icon.svg" />
+              </div>
+              <h3 class="subline">Subway</h3>
+            </div>
+            <p>
+              The subway is a great way to get around NYC as its pretty fast as
+              well as relatively cheap compared to taking a cab everywhere.
+            </p>
+          </div>
+          <div class="container-bike-info">
+            <div class="icon-headline-wrapper">
+              <div class="icon-box">
+                <img class="icon-bike" src="./media/bike-icon.svg" />
+              </div>
+              <h3 class="subline">Bike</h3>
+            </div>
+            <p>
+              Using a bike to make your way through New York is really
+              enjoyable. Unlike using the subway, you get to see a lot of the
+              city while going to your destination.
+            </p>
+          </div>
+          <div class="container-cab-info">
+            <div class="icon-headline-wrapper">
+              <div class="icon-box">
+                <img class="icon-cab" src="./media/cab-icon.svg" />
+              </div>
+              <h3 class="subline">Cab</h3>
+            </div>
+            <p>
+              While taking a cab can be pretty expensive and not necessarily the
+              fastest depending on traffic its definitely the most comfortable
+              way to get around and see a lot of the city.
+            </p>
+          </div>
         </div>
         <div class="content-column">
-          <img src="./media/nyc-food-teaser.jpg">
+          <img class="get-around-img" src="./media/getaround.jpg" />
         </div>
       </div>
-    </div>
-    <div class="container-mobility">
-      <div class="content-column">
-        <p class="pre-headline">Get around the city</p>
-        <h2>So many ways to get around the city but which one should you use?</h2>
-        <div class="container-subway-info">
-          <div class="icon-headline-wrapper">
-            <div class="icon-box">
-              <img class="icon-subway" src="./media/subway-icon.svg">
-            </div>
-            <h3 class="subline">Subway</h3>
+    </main>
+    <footer>
+      <div class="container-contact-us">
+        <p class="contact-us-slogan">
+          Did we leave any questions unanswered or are there any topics we
+          didn’t discuss?
+        </p>
+        <a class="button" href="/#">Let us know</a>
+      </div>
+      <div class="footer-background-color">
+        <div class="footer-bar">
+          <p class="logo-footer"><a href="./index.html">DiscoverNYC</a></p>
+          <div class="container-social-media-icons">
+            <img class="social-media-icons" src="./media/facebook-icon.svg" />
+            <img class="social-media-icons" src="./media/twitter-icon.svg" />
+            <img src="./media/instagram-icon.svg" />
           </div>
-          <p>
-            The subway is a great way to get around
-            NYC as its pretty fast as well as
-            relatively cheap compared to taking a cab everywhere.
-          </p>
-        </div>
-        <div class="container-bike-info">
-          <div class="icon-headline-wrapper">
-            <div class="icon-box">
-              <img class="icon-bike" src="./media/bike-icon.svg">
-            </div>
-            <h3 class="subline">Bike</h3>
-          </div>
-          <p>
-            Using a bike to make your way through New York
-            is really enjoyable. Unlike using the subway,
-            you get to see a lot of the city while going to your destination.
-          </p>
-        </div>
-        <div class="container-cab-info">
-          <div class="icon-headline-wrapper">
-            <div class="icon-box">
-              <img class="icon-cab" src="./media/cab-icon.svg">
-            </div>
-            <h3 class="subline">Cab</h3>
-          </div>
-          <p>
-            While taking a cab can be pretty expensive and
-            not necessarily the fastest depending on traffic its
-            definitely the most comfortable way to get
-            around and see a lot of the city.
-          </p>
         </div>
       </div>
-      <div class="content-column">
-        <img class="get-around-img" src="./media/getaround.jpg">
-      </div>
-    </div>
-  </main>
-  <footer>
-    <div class="container-contact-us">
-      <p class="contact-us-slogan">Did we leave any questions unanswered or are there any topics we didn’t discuss?</p>
-      <a class="button" href="/#">Let us know</a>
-    </div>
-    <div class="footer-background-color">
-      <div class="footer-bar">
-        <p class="logo-footer">DiscoverNYC</p>
-        <div class="container-social-media-icons">
-          <img class="social-media-icons" src="./media/facebook-icon.svg">
-          <img class="social-media-icons" src="./media/twitter-icon.svg">
-          <img src="./media/instagram-icon.svg">
-        </div>
-      </div>
-    </div>
-  </footer>
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script src="./node_modules/slick-carousel/slick/slick.min.js"></script>
-<script src="./slider.js"></script>
-<script src="./index.js"></script>
-</body>
-
+    </footer>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script src="./node_modules/slick-carousel/slick/slick.min.js"></script>
+    <script src="./slider.js"></script>
+    <script src="./index.js"></script>
+  </body>
 </html>
